@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dbconfig>
+	<driver-name>QSQLITE</driver-name>
+	<host-name></host-name>
+	<connection-name>qhera</connection-name>
+	<port></port>
+	<db-name>D:/demo/Reflecting/testdb.db</db-name>
+	<user-name></user-name>
+	<password></password>
+</dbconfig>

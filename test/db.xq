@@ -1,0 +1,1 @@
+fn:string-join((fn:string(data(dbconfig/driver-name)),fn:string(data(dbconfig/host-name)),fn:string(data(dbconfig/db-name)),fn:string(data(dbconfig/user-name)),fn:string(data(dbconfig/password)),fn:string(data(dbconfig/port)),fn:string(data(dbconfig/connection-name))),'|')

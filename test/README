@@ -1,0 +1,3 @@
+1.you should change the application run dir to source dir
+2.make sure these files exist db.xq map.xq name.xq BirdModel.xml DbConnection.xml testdb.db
+3.change the DbConnection.xml's configurations
