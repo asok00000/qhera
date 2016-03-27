@@ -592,9 +592,10 @@ private:
 
 private:
     T targetModel;
-    QSqlDatabase *db;
+	  static QSqlDatabase *db;
 };
 template<class T>  QString QHera<T>::configPath = "./";
 template<class T>  DbConfig QHera<T>::dbConfig = DbConfig();
+template<class T>  QSqlDatabase* QHera<T>::db = NULL;
 #endif // QHERA_H
 
