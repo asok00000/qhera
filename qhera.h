@@ -132,7 +132,7 @@ public:
                                 data.setValue(value.toString());
                                 break;
                             }
-                            result->setProperty(name.toUtf8(),data);
+                            result->setProperty(propertyInfo.name.toUtf8(),data);
                         }
                     }
                     lstRet<<result;
@@ -181,7 +181,7 @@ public:
                                 data.setValue(value.toString());
                                 break;
                             }
-                            result->setProperty(name.toUtf8(),data);
+                            result->setProperty(propertyInfo.name.toUtf8(),data);
                         }
                     }
                     lstRet<<result;
@@ -226,7 +226,7 @@ public:
                                 data.setValue(value.toString());
                                 break;
                             }
-                            result->setProperty(name.toUtf8(),data);
+                            result->setProperty(propertyInfo.name.toUtf8(),data);
                         }
                     }
                     lstRet<<result;
