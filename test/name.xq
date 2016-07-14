@@ -1,1 +1,0 @@
-fn:string(mapper/@tableName)
